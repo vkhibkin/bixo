@@ -1,0 +1,24 @@
+#menu {
+	top: 0px;
+	left: 0px;
+	width: 1200px;
+	height: 40px;
+	background-color: #EEEEEE;
+}
+
+.menuList {
+
+}
+
+.menuItem {
+	float: right;
+	margin-right: 1px;
+	margin-top: 3px;
+}
+
+.menuItem span {
+	display: inline-block;
+	width: 80px;
+	height: 34px;
+	background-color: #CCCCCC;
+}
