@@ -5,12 +5,15 @@ import Menu from "../Menu/Menu";
 import Toolbar from "../Toolbar/Toolbar";
 import WorkBoard from "../WorkBoard/WorkBoard";
 
+import Promise from "bluebird";
+
 class App extends Component {
 
 
 	render() {
 
-		//console.log(new Promise());
+		console.log(Promise);
+		//var Promise = require("bluebird");
 
 		return (
 			<div className="App">

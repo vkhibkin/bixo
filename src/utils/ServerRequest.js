@@ -1,3 +1,6 @@
+import Promise from "bluebird";
+
+
 var model = function() {
 	var makeRequest = function(obj) {
 		$.ajax({
