@@ -1,0 +1,116 @@
+
+Some thoughts:
+
+For any one type of suspension system, 
+there is an X number of linkages
+And an x number of linkage bearings
+
+
+Since we can assume that the linkage set of any one bike is not interchangable, 
+we can treat it as a closed system, single componenet, called linkage.
+
+
+The bearings are normaly sold as a set, and so can also be treated as a single componenet,
+However this ebcomes problematic if ir when some one os hoping to replace jsut a single bearing / pivot,
+while unlikely this is possible,
+So it may be reasonable to list each pivot point bearing set as a separate componenet.
+(In this case matching would have to be done via paramter rather then just compoenent)
+Still need to research if there are different bearing styles for the linkages, and what types, and what paramteres are important.
+
+
+Another consideration is the interchangabuility of linkage shocks.
+Assumption is that for any one bike the linkage shocks that can be interchanged would have to be 
+specificaly made for that model of bike, and we can list the interchangable componenets and not try to match up parametricaly.
+
+----------
+
+
+
+
+
+
+
+1. Single pivot
+
+Rear axel is connected to the main frame by a swing arm
+
+Shock is connected directly to the swing arm
+
+
+
+2. Linkage-driven single pivot
+
+ still uses an uninterrupted swingarm
+ incorporates some form of linkage to drive the shock
+ allows the designers to manipulate the leverage curve and so control the frame’s progressivity
+ 
+ 
+
+3. Horst-link (four-bar)
+
+rear pivot located below the rear axle on the chainstay
+
+his means the rear axle is not directly connected to the mainframe, 
+and so moves in a path which is defined by its Instant Centre and Centre of curvature, 
+which may move as the suspension cycles through its travel. 
+Depending on the position of the Instant Centre, the effect of braking forces on the suspension (known as anti-rise) 
+can be reduced relative to a single pivot design. 
+
+4. Twin-link (virtual pivot point) (VPP)
+
+use a rigid rear triangle
+ articulating on a pair of short links which connect it to the mainframe
+
+
+4.3 Short Dual Link (SDL)
+ 
+ 
+5. Trek’s ABP system
+ 
+essentially a linkage-driven single pivot
+
+uses a concentric dropout pivot at the rear axle.
+
+allows them to mount the brake caliper to the seatstay rather than the chainstay.
+
+ seatstays rotate less around the disc rotor than the chainstays as the suspension cycles, the effect of braking forces on the suspension (known as anti-rise) is significantly reduced.
+
+In other words, Trek’s design works like a linkage-driven single pivot in terms of pedalling forces, but like a Horst-link in terms of braking forces. It’s kind of a hybrid.
+
+
+6. Yeti’s Switch Infinity
+
+
+
+
+
+------
+
+Pivot bearings linkage bearings...
+
+
+
+Notes on linkage pivots
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
