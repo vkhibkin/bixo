@@ -1,0 +1,73 @@
+Bottom bracket shell types:
+
+-----
+
+Threaded bottom bracket shell
+
+stands diamter nominal 34mm
+width varies from 68mm to 100mm and beyond
+
+
+-----
+
+BB30
+
+nominal inside diamter 42mm
+
+widths 68mm (road bvike implied)
+
+73mm (mountian bike implied)
+
+NOTE: bearings are press fit
+
+
+BB30 frame shell will accept non-BB30 cranksets (adapters needed for 24mm spindle diameter cranks)
+Such as 
+Shimano® Hollowtech® II or SRAM® GXP
+ 
+
+------
+
+
+PF30
+
+The shell inside diameter is nominally 46mm
+
+width may measure 68mm for road bikes or 73mm for mountain bikes
+
+artridge bearings are mounted into either plastic or aluminum adaptors (or assemblies).
+
+
+These are pressed into the frame shell
+
+
+adaptors are available to permit 24mm spindle diameter cranks to fit frames made in the PF30 standard.
+
+
+-----
+
+BB86, BB92, and BB121
+
+41mm in the frame shell
+
+width: For road bikes it is 86mm, for mountain bikes it is 92mm, and for “Fat Bikes” it is 121mm.
+
+These standards use two-piece cranks with spindle diameters of approximately 24mm.
+
+-----
+
+BB90 OR BB95
+
+prorietary system
+treck
+
+the frame is molded to accept the cartridge bearing as a slip fit
+
+-----
+
+BBRIGHT™
+
+-----
+386 EVO
+
+

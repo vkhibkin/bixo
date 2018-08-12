@@ -1,0 +1,89 @@
+Bike
+
+Frame
+
+Fork
+
+
+Each prototype has a table associated with it? Not extendable
+
+--------------------------------------------------
+bike
+	Front End
+		Fork assembly
+			Axel
+			Fork
+			Brake caliper adapter
+			Front brake line
+			
+		Front wheel assebly
+			Spokes
+			Hub
+			Rhim
+			Tire Assembly
+				Tire
+				Tube
+				Valve Stem
+		Brake System
+			Brake Caliper
+			Brake Pads
+			Brake Line
+			Brake disk
+			
+		Handlebar assembly
+			Handlebar clamp (need actual name)	
+			Handle bar
+			grips
+			Front Break lever
+			Rear Brake Lever
+			Front gear switch
+			Rear gear switch
+			bar ends
+	Frame
+	
+		Crankset
+			Bottom Bracket
+			Chainset
+				Chainrings
+				Chainring Bracket (need name for this componenet)
+			Cranck
+				Axels
+				Cranck Arms
+				Pedals		
+
+			Chain guide / bash guard
+			
+				
+		Suspension Linkage
+			Shock
+			Linkage bearings
+		Seat Assebmly
+			Seat Post
+			Saddle
+		Rear brake line
+		Rear deraleur line
+		Front deralur line
+		
+		Rear axel and brake caliper adapter thingy (need actual name for this)
+		Rear Axel
+		Rear deraleur hanger
+		
+	Rear End
+		Rear wheel assebly
+			Spokes
+			Hub
+			Rhim
+			Tire Assembly
+				Tire
+				Tube
+				Valve Stem
+		Brake system
+			Brake Caliper
+			Brake Pads
+			Brake Line
+			Brake disk
+		Rear drive train
+			Deraleur
+			Cassete
+			Casete rings (need actual name)
+--------------------------------------------------
