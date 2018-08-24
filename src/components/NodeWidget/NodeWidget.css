@@ -1,6 +1,30 @@
+
+
 .taxonomyNode {
-	width: 30px;
-	height: 30px;
+	/*width: 30px;/* */
+	min-height: 30px;
 	margin: 1px;
-	background-color: #CCEE99;
+	/*background-color: #CCEE99; /* */
+	text-align: left;
+}
+
+.nodeIcon {
+	height: 30px;
+	width: 30px;
+	/*border: solid; /* */
+	background-color: cornsilk;
+	display: inline-block;
+}
+
+.nodeTitle {
+	height: 30px;
+	display: inline-block;
+	background-color: darkgray;
+}
+
+.subNodes {
+	min-height: 30px;
+	padding-left: 30px;
+	/*background-color: coral; /* */
+	/*border: solid;/* */
 }

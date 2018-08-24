@@ -1,19 +1,22 @@
 import React, {Component} from 'react';
-//import logo from '../../logo.svg';
 import './App.css';
 import Menu from "../Menu/Menu";
 import Toolbar from "../Toolbar/Toolbar";
 import WorkBoard from "../WorkBoard/WorkBoard";
 
-import Promise from "bluebird";
+
 
 class App extends Component {
 
 
+
+
 	render() {
 
-		console.log(Promise);
-		//var Promise = require("bluebird");
+
+
+
+
 
 		return (
 			<div className="App">
@@ -27,5 +30,10 @@ class App extends Component {
 		);
 	}
 }
+
+
+App.Model = function() {
+
+}();
 
 export default App;
