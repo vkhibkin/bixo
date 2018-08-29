@@ -1,6 +1,6 @@
 #taxonomyPane {
 	width: 580px;
-	height: 600px;
-	background-color: #CCEEEE;
+	min-height: 600px;
+	/*background-color: #CCEEEE;/* */
 	float: left;
 }

@@ -6,25 +6,52 @@
 	margin: 1px;
 	/*background-color: #CCEE99; /* */
 	text-align: left;
+	padding-left: 5px;
+}
+
+.nodeLabel {
+	/*background-color: darkgreen;/* */
+}
+
+.toggleIcon {
+	height: 30px;
+	width: 30px;
+	/*border: solid; /* */
+	background-color: #FFCCCC;
+	color: #FFFFFF;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
 }
 
 .nodeIcon {
 	height: 30px;
 	width: 30px;
 	/*border: solid; /* */
-	background-color: cornsilk;
+	background-color: #CCCCCC;
+	color: #FFFFFF;
 	display: inline-block;
+	border-radius: 2px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+
 }
 
 .nodeTitle {
-	height: 30px;
+	/*height: 30px;/* */
+	min-width: 120px;
+	/*padding: 0 10px 0 10px;/* */
 	display: inline-block;
-	background-color: darkgray;
+	/*background-color: coral;/* */
 }
 
+
 .subNodes {
-	min-height: 30px;
+	/*min-height: 30px;/* */
 	padding-left: 30px;
 	/*background-color: coral; /* */
 	/*border: solid;/* */
+	/*display: none; /* */
 }

@@ -7,17 +7,7 @@ import WorkBoard from "../WorkBoard/WorkBoard";
 
 
 class App extends Component {
-
-
-
-
 	render() {
-
-
-
-
-
-
 		return (
 			<div className="App">
 				<Menu/>
