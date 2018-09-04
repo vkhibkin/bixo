@@ -4,7 +4,12 @@ import './NodeWidget.css';
 class NodeWidget extends Component {
 
 	constructor(props) {
+
+
 		super(props);
+
+		//console.log(this.props);
+
 		this.state = {
 			showTitle: false,
 			subComponentsPresent: this.subNodesPresent(props),
@@ -41,12 +46,30 @@ class NodeWidget extends Component {
 	}
 
 	toggleSubNodes() {
+
+		this.props.nodeObject.nodeIsExpanded = !this.state.showSubNodes;
 		this.setState({showSubNodes: !this.state.showSubNodes});
+
+		//NOTE: even though nodeObject is owned by this compoenent its still referenced in the parent component.
+		//this is convenient in doing things like... the following.
+
+		//NOTE: is there a guaranteee that this si safe to do..
+
+		//TODO: Place information here for the updateGraphicPane to use
+		//this should be information about location of
+		// for isntance flag that states to dar or not draw choidlren,
+		// at the moment that might be all that nescesary.
+
+		this.props.updateGraphicPane();
 	}
 
 	render() {
 		const nodeObject = this.props.nodeObject,
-			subComponents = nodeObject.subComponents || {};
+			subComponents = nodeObject.subComponents || {},
+			updateGraphicPane = this.props.updateGraphicPane;
+
+
+
 		return (
 			<div className="taxonomyNode">
 				<div className="nodeLabel">
@@ -56,16 +79,16 @@ class NodeWidget extends Component {
 						<div className="toggleIcon" ></div>
 					)}
 					<div className="nodeIcon" onClick={this.toggleTitle}>abr</div>
-					{this.state.showTitle &&
-						<div className="nodeTitle">{nodeObject.displayName}</div>
-					}
-					{this.state.showSubNodes &&
-						<div className="subNodes">
+
+					<div className="nodeTitle">{nodeObject.displayName}</div>
+
+
+						<div className="subNodes" style={{display: (this.state.showSubNodes)?'block':'none'}}>
 							{Object.keys(subComponents).map(function(key) {
-								return <NodeWidget key={key} nodeObject={subComponents[key]}/>;
+								return <NodeWidget key={key} nodeObject={subComponents[key]} updateGraphicPane={updateGraphicPane}/>;
 							})}
 						</div>
-					}
+
 				</div>
 			</div>
 		);

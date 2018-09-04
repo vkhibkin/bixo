@@ -3,7 +3,8 @@
 	left: 0px;
 	width: 1200px;
 	height: 40px;
-	background-color: #EEEEEE;
+	background-color: #5C9D98;
+	border-bottom: #000000 1px;
 }
 
 .menuList {
@@ -14,11 +15,15 @@
 	float: right;
 	margin-right: 1px;
 	margin-top: 3px;
+	text-align: center;
+	border-radius: 3px;
+	background-color: #CCCCCC;
 }
 
 .menuItem span {
 	display: inline-block;
-	width: 80px;
-	height: 34px;
-	background-color: #CCCCCC;
+	/*width: 80px;/* */
+	/*height: 34px;/* */
 }
+
+

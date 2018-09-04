@@ -1,0 +1,13 @@
+.iconButton {
+	display: inline-block;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 38px;
+	cursor: pointer;
+	width: 38px;
+	height: 38px;
+	vert-align: middle;
+	background-color: #236863;
+	margin: 1px;
+	border-radius: 2px;
+}

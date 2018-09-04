@@ -1,0 +1,19 @@
+#partsSearchPane {
+	width: 580px;
+	min-height: 600px;
+	/*background-color: #EEEECC;/* */
+	float: left;
+}
+
+
+#partsSearchPane_SearchStringInput {
+	color: #CCCCCC;
+}
+
+#partsSearchPane_SearchSend {
+
+}
+
+#partsSearchPane_SearchCriteriaLoad {
+
+}

@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './WorkBoard.css';
 import Taxonomy from "../Taxonomy/Taxonomy";
+import PartsSearchPane from "../PartsSearchPane/PartsSearchPane";
 import model from "../../utils/ServerRequest";
 
 class WorkBoard extends Component {
@@ -22,15 +23,7 @@ class WorkBoard extends Component {
 		return (
 			<div id="workboard">
 				<Taxonomy bikeData={this.state.bikeData}/>
-				<div id="partsSearchPane">
-					<ul>
-						<li>a</li>
-						<li>b</li>
-						<li>c</li>
-						<li>d</li>
-					</ul>
-				</div>
-
+				<PartsSearchPane />
 			</div>
 		);
 	}

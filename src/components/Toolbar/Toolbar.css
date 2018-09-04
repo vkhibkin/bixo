@@ -1,22 +1,14 @@
 #toolbar {
 	width: 40px;
 	height: 600px;
-	/*background-color: cornsilk;/* */
+	/*background-color: #D8FFFC;/* */
 	float: left;
 }
 
 .toolbarList {
-
-
+	margin-top: 30px;
 }
 
 .toolbarItem {
-	margin: 1px 1px 0 0;
 }
 
-.toolbarItem span {
-	display: inline-block;
-	width: 38px;
-	height: 38px;
-	background-color: #CCCCCC;
-}
