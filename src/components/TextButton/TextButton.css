@@ -1,0 +1,15 @@
+.textButton {
+	display: inline-block;
+	height: 38px;
+	vert-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	min-width: 50px;
+	color: #FFFFFF;
+	background-color: #236863;
+	text-align: center;
+	line-height: 38px;
+	border-radius: 2px;
+	cursor: pointer;
+	font-weight: 500;
+}

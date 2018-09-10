@@ -13,10 +13,13 @@ class NodeWidget extends Component {
 		this.state = {
 			showTitle: false,
 			subComponentsPresent: this.subNodesPresent(props),
-			showSubNodes: false
+			showSubNodes: false,
+			showDescription: false
 		};
 		this.toggleTitle = this.toggleTitle.bind(this);
 		this.toggleSubNodes = this.toggleSubNodes.bind(this);
+		this.toggleDescription = this.toggleDescription.bind(this);
+
 	}
 
 	componentDidUpdate(prevProps, prevState, snapshot) {
@@ -63,18 +66,32 @@ class NodeWidget extends Component {
 		this.props.updateGraphicPane();
 	}
 
+	toggleDescription() {
+		this.props.nodeObject.descriptionIsExpanded = !this.state.showDescription;
+		this.setState({showDescription: !this.state.showDescription});
+	}
+
+
 	render() {
 		const nodeObject = this.props.nodeObject,
 			subComponents = nodeObject.subComponents || {},
-			updateGraphicPane = this.props.updateGraphicPane;
+			updateGraphicPane = this.props.updateGraphicPane,
+			description = this.props.nodeObject.description || "";
 
-
+		console.log(this.state.showDescription);
 
 		return (
 			<div className="taxonomyNode">
 				<div className="nodeLabel">
 					{this.state.subComponentsPresent ? (
-						<div className="toggleIcon" onClick={this.toggleSubNodes}>a</div>
+						<div className="toggleIcon" onClick={this.toggleSubNodes}>
+							{this.props.nodeObject.nodeIsExpanded?(
+								<i className="fa fa-caret-down"></i>
+							):(
+								<i className="fa fa-caret-right"></i>
+							)}
+
+						</div>
 					) : (
 						<div className="toggleIcon" ></div>
 					)}
@@ -82,14 +99,41 @@ class NodeWidget extends Component {
 
 					<div className="nodeTitle">{nodeObject.displayName}</div>
 
+					<button className="nodeLabelActionButton" onClick={this.toggleDescription} title="description">
+							<i className="fa fa-info"></i>
+					</button>
 
-						<div className="subNodes" style={{display: (this.state.showSubNodes)?'block':'none'}}>
-							{Object.keys(subComponents).map(function(key) {
-								return <NodeWidget key={key} nodeObject={subComponents[key]} updateGraphicPane={updateGraphicPane}/>;
-							})}
-						</div>
+
+
+
+					<button className="nodeLabelActionButton">
+						<i className="fa fa-search"></i>
+					</button>
+
 
 				</div>
+
+
+
+
+				<div className="nodeDescription" style={{display: (this.state.showDescription) ? 'block' : 'none'}}>
+
+					<button className="nodeLabelActionButton minimizeDescription" onClick={this.toggleDescription}>
+							<i className="fa fa-window-minimize"></i>
+					</button>
+
+					{description}
+
+				</div>
+
+
+
+				<div className="subNodes" style={{display: (this.state.showSubNodes) ? 'block' : 'none'}}>
+					{Object.keys(subComponents).map(function(key) {
+						return <NodeWidget key={key} nodeObject={subComponents[key]} updateGraphicPane={updateGraphicPane}/>;
+					})}
+				</div>
+
 			</div>
 		);
 	}

@@ -1,6 +1,6 @@
 {
   "Bike": {
-	"description": "Some description goes here...",
+	"description": "This is my description, There are many like it but this one is mine. I am a nice shark, not a midless killing machine. If I am to change this image of my self, I must first change my self. Fish are friends not food.",
 	"componentId": "1",
 	"displayName": "Bike 3000 rsx",
 	"specs": {
@@ -19,7 +19,7 @@
 		},
 		"subComponenets": {
 		  "ForkAssembly": {
-			"description": "Some description goes here...",
+			"description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
 			"componentId": "3",
 			"displayName": "Fork Assembly",
 			"specs": {
@@ -29,7 +29,7 @@
 			},
 			"subComponenets": {
 			  "Axel": {
-				"description": "Some description goes here...",
+				"description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
 				"componentId": "4",
 				"displayName": "Axel",
 				"specs": {
@@ -40,7 +40,7 @@
 				"subComponenets": null
 			  },
 			  "Fork": {
-				"description": "Some description goes here...",
+				"description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
 				"componentId": "5",
 				"displayName": "Fork",
 				"specs": {
@@ -51,7 +51,7 @@
 				"subComponenets": null
 			  },
 			  "BrakeCaliperAdapter": {
-				"description": "Some description goes here...",
+				"description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
 				"componentId": "6",
 				"displayName": "Brake Caliper Adapter",
 				"specs": {
@@ -62,7 +62,7 @@
 				"subComponenets": null
 			  },
 			  "FrontBrakeLine": {
-				"description": "Some description goes here...",
+				"description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
 				"componentId": "7",
 				"displayName": "Front Brake Line",
 				"specs": {
@@ -75,7 +75,7 @@
 			}
 		  },
 		  "FrontWheelAssebly": {
-			"description": "Some description goes here...",
+			"description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
 			"componentId": "8",
 			"displayName": "Front wheel assebly",
 			"specs": {
@@ -85,7 +85,7 @@
 			},
 			"subComponenets": {
 			  "Spokes": {
-				"description": "Some description goes here...",
+				"description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
 				"componentId": "9",
 				"displayName": "Spokes",
 				"specs": {
@@ -96,7 +96,7 @@
 				"subComponenets": null
 			  },
 			  "Hub": {
-				"description": "Some description goes here...",
+				"description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
 				"componentId": "10",
 				"displayName": "Hub",
 				"specs": {
@@ -107,7 +107,7 @@
 				"subComponenets": null
 			  },
 			  "Rhim": {
-				"description": "Some description goes here...",
+				"description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
 				"componentId": "11",
 				"displayName": "Rhim",
 				"specs": {
@@ -118,13 +118,13 @@
 				"subComponenets": null
 			  },
 			  "TireAssembly": {
-				"description": "Some description goes here...",
+				"description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
 				"componentId": "12",
 				"displayName": "Tire Assembly",
 				"specs": {},
 				"subComponenets": {
 				  "Tire": {
-					"description": "Some description goes here...",
+					"description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
 					"componentId": "13",
 					"displayName": "Tire",
 					"specs": {

@@ -8,7 +8,7 @@ class GraphicPane extends Component {
 
 		super(props);
 
-		console.log(this.props);
+		//console.log(this.props);
 
 		this.state = {
 			width: 600,
@@ -37,16 +37,16 @@ class GraphicPane extends Component {
 		/* */
 	}
 
-	drawSubComponentConnection(rootObject, start) {
+	drawSubComponentConnection(rootObject, strt) {
 
-		console.log("drawSubComponentConnection...")
+		//console.log("drawSubComponentConnection...")
 
 		var ctx = this.graphicPaneCanvas.current.getContext("2d");
-		var start = start || {x: 15, y: 15};
+		var start = strt || {x: 15, y: 15};
 
 		ctx.clearRect(0,0,800,800);
 
-		console.log(rootObject);
+		//console.log(rootObject);
 		if(rootObject.nodeIsExpanded) {
 
 			var subNodes = rootObject.subComponents;
@@ -80,8 +80,8 @@ class GraphicPane extends Component {
 
 		//ctx.clearRect
 
-		console.log(start);
-		console.log(finish);
+		//console.log(start);
+		//console.log(finish);
 
 
 
@@ -101,16 +101,18 @@ class GraphicPane extends Component {
 
 	//https://svg2jsx.herokuapp.com/
 
+	//<line x1={20} y1={10} x2={120} y2={100} stroke='black' strokeWidth='1'/>
+
 	render() {
 
-		console.log("redener...");
+		//console.log("redener...");
 
 		return (
 
 			<div>
 				<svg id="graphicPaneCanvas" xmlns='http://www.w3.org/2000/svg' viewBox={[0, 0, 800, 800]}>
 
-					<line x1={20} y1={10} x2={120} y2={100} stroke='black' strokeWidth='1'/>
+
 
 				</svg>
 			</div>

@@ -1,0 +1,61 @@
+TODO:
+-----
+	Front End:
+		
+		Design a logo
+		
+		Style node widgets
+		
+		Add node widget descriptions
+		Add node widget buttons
+		
+		Style / create static search pane
+		
+		Research using Less with React
+		Setup less css pre processor
+		Reffactor css for Less library
+		SVG based line rednering
+		Install font awesome (free verion) in build
+		Implement more fonts
+		
+		Animate opening and closing of the description...
+		
+		search pane should scrioll with the page...
+		
+		need a button to expand and colapse all subnodes
+		need a button to expand and colapse all desciritpions
+		
+		Refactor Task: rename id's and classes to use underscore convention
+		
+		Refactor Task: naming convention all event handler callbacks start with handle... followed by action
+		
+	Back End:
+	
+		Implement React-Router
+		Create basic db schema 
+		Implement server frame work
+		Make server configurable for my sql mssql
+	
+	Documentation and Build:
+	
+		Finish db-schema design documnts
+		Create a read me file for setup
+		Addjust git ignore
+		Design Server Frame work, document design
+		
+-----
+Create simple UI views to start populating database
+Gather research and populate componenets and interfaces
+Back up database nightly going back 7 days
+-----
+Build out taxonomy tool to work with populated data
+-----
+Refactor code and finsih documentation.
+-----
+Build profile page
+Build article page
+Build login page
+Build landing page
+Ensure secure login
+Inetgrate adding of componenets in to to main taxonomy page
+-----

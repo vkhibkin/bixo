@@ -1,13 +1,17 @@
 #partsSearchPane {
 	width: 580px;
 	min-height: 600px;
-	/*background-color: #EEEECC;/* */
+	background-color: #EEEECC;/* */
 	float: left;
 }
 
+#partsSearchPane_SearchRequestContainer {
+	text-align: right;
+}
 
 #partsSearchPane_SearchStringInput {
 	color: #CCCCCC;
+	border: solid 1px;
 }
 
 #partsSearchPane_SearchSend {

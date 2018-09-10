@@ -11,7 +11,7 @@ class IconButton extends Component {
 
 		return (
 			<span className="iconButton">
-				<i class={iClassName}></i>
+				<i className={iClassName} onMouseDown={this.props.mouseDownCallback}></i>
 			</span>
 		);
 	}

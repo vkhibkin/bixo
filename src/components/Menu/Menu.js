@@ -1,16 +1,41 @@
 import React, {Component} from 'react';
 import './Menu.css';
+import TextButton from "../TextButton/TextButton";
 
 class Menu extends Component {
 	render() {
 		return (
 			<div id="menu">
-				<ul className="menuList">
-					<li className="menuItem"><span>login</span></li>
-					<li className="menuItem"><span>b</span></li>
-					<li className="menuItem"><span>c</span></li>
-					<li className="menuItem"><span>d</span></li>
+				<ul className="menuList leftMenu">
+					<li>
+						<TextButton />
+					</li>
+					<li>
+						<TextButton />
+					</li>
+					<li>
+						<TextButton />
+					</li>
+					<li>
+						<TextButton />
+					</li>
 				</ul>
+
+				<ul className="menuList rightMenu">
+					<li>
+						<TextButton />
+					</li>
+					<li>
+						<TextButton />
+					</li>
+					<li>
+						<TextButton />
+					</li>
+					<li>
+						<TextButton />
+					</li>
+				</ul>
+
 
 			</div>
 		);
