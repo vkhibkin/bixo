@@ -31,11 +31,18 @@ class PartsSearchPane extends Component {
 		return (
 			<div id="partsSearchPane">
 
+				<div id="partsSearchPane_SearchRequestClose">
+					<i class="fa fa-times"></i>
+				</div>
+
 				<div id="partsSearchPane_SearchRequestContainer">
 					<input id="partsSearchPane_SearchStringInput" value={"Search..."} onChange={this.handleSearchChange}/>
 
-					<IconButton iconName="wrench" mouseDownCallback={this.handleSearchSubmit}/>
-					<IconButton iconName="wrench" mouseDownCallback={this.handleFilterOpen}/>
+					<span id="partsSearchPane_IconButtonContainer">
+						<IconButton iconName="search" mouseDownCallback={this.handleSearchSubmit}/>
+						<IconButton iconName="bars" mouseDownCallback={this.handleFilterOpen}/>
+					</span>
+
 				</div>
 
 

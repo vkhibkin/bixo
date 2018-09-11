@@ -1,17 +1,55 @@
 #partsSearchPane {
 	width: 580px;
-	min-height: 600px;
-	background-color: #EEEECC;/* */
-	float: left;
+	height: 750px; /* dynamicaly set this when screen changes */
+	/*background-color: #EEEECC;/* */
+	/*float: left;/* */
+
+	background-color: #FFFFFF;/* */
+
+	position: fixed;
+	top: 75px;
+	right: 10px;
+	padding: 10px;
+
+	border-radius: 4px 0 4px 4px;
+	border: solid 1px #EEEEEE;
+
+}
+
+#partsSearchPane_SearchRequestClose {
+
+	height: 30px;
+	width: 30px;
+	background-color: #EEEEEE;
+	color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	line-height: 30px;
+	border-radius: 4px 4px 0 0;
+
+	position: absolute;
+	top: -30px;
+	right: -1px;
+}
+
+
+#partsSearchPane_IconButtonContainer {
+	float: right;
 }
 
 #partsSearchPane_SearchRequestContainer {
-	text-align: right;
+	text-align: left;
+	height: 45px;
 }
 
 #partsSearchPane_SearchStringInput {
 	color: #CCCCCC;
 	border: solid 1px;
+	margin-top: 5px;
+	width: 200px;
+	height: 25px;
+	padding-left: 10px;
 }
 
 #partsSearchPane_SearchSend {

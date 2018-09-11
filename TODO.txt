@@ -1,13 +1,25 @@
 TODO:
 -----
+	Helpful Links:
+		
+		https://www.npmjs.com/package/arrow-keys-react
+		
+
 	Front End:
 		
 		Design a logo
+		Add logo to page
 		
 		Style node widgets
 		
 		Add node widget descriptions
 		Add node widget buttons
+		
+		Try to right side jsutify the info and search buttons on the node widget for better allignment.
+		
+		parts search pane can be openeed and closed..
+		
+		part being swapped when part search pane is open should be highlighted
 		
 		Style / create static search pane
 		
@@ -28,6 +40,12 @@ TODO:
 		Refactor Task: rename id's and classes to use underscore convention
 		
 		Refactor Task: naming convention all event handler callbacks start with handle... followed by action
+		
+		Dynamicaly size width of TypeAheadMultiSelect based on property passed from parent component
+		
+		Resolve all TODO: notes in the code
+		
+		
 		
 	Back End:
 	

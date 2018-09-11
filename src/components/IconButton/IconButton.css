@@ -11,3 +11,8 @@
 	margin: 1px;
 	border-radius: 2px;
 }
+
+.iconButton:hover {
+	border-radius: 4px;
+	/*TODO: change color on mouseover */
+}

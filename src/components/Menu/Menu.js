@@ -6,6 +6,9 @@ class Menu extends Component {
 	render() {
 		return (
 			<div id="menu">
+
+				<div id="logo"></div>
+
 				<ul className="menuList leftMenu">
 					<li>
 						<TextButton />

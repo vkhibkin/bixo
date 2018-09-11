@@ -1,4 +1,5 @@
 
-#PartsSearchFilter {
+.partsSearchFilter {
 	background-color: darkgoldenrod;
+	padding-top: 30px;
 }

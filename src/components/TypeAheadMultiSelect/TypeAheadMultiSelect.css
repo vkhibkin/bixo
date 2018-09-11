@@ -1,0 +1,85 @@
+.typeAheadMultiSelect {
+	background-color: crimson;
+	width: 500px;
+	margin: 2px;
+}
+
+/****************************************************/
+.typeAheadMultiSelect_InputContainer {
+	background-color: cyan;
+	display: inline-block;
+	width: 196px;
+
+	/*float: left;/* */
+
+	vertical-align: top;
+	padding: 2px;
+
+}
+
+.typeAheadMultiSelect_Input {
+	width: 186px;
+	height: 25px;
+	padding-left: 10px;
+}
+
+/****************************************************/
+
+.typeAheadMultiSelect_SelectedFilters {
+	background-color: cornflowerblue;
+	display: inline-table;
+	padding: 4px;
+
+	/*float: right;/* */
+
+	width: 292px;
+
+	vertical-align: top;
+
+}
+
+.typeAheadMultiSelect_SingleSelectedFilter {
+	background-color: darksalmon;
+	padding: 3px 15px 3px 3px;
+	margin: 1px;
+	display: inline-block;
+}
+
+.typeAheadMultiSelect_RemoveSelectedFilter {
+	background: red;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 10px;
+	height: 10px;
+	font-size: 10px;
+	line-height: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+
+/****************************************************/
+
+.typeAheadMultiSelect_Hints {
+	display: none;
+	position: absolute;
+	z-index: 1000;
+	top: 29px;
+	left: 2px;
+
+
+}
+
+.typeAheadMultiSelect_HintsList {
+
+}
+
+.typeAheadMultiSelect_HintsItem {
+	background-color: white;
+	margin: 1px;
+	padding: 0 15px
+}
+
+.highlightedItem {
+	background-color: darkcyan;
+}
