@@ -99,16 +99,18 @@ class NodeWidget extends Component {
 
 					<div className="nodeTitle">{nodeObject.displayName}</div>
 
-					<button className="nodeLabelActionButton" onClick={this.toggleDescription} title="description">
+					<div className="nodeLabelActionButtonContainer">
+						<button className="nodeLabelActionButton" onClick={this.toggleDescription} title="description">
 							<i className="fa fa-info"></i>
-					</button>
+						</button>
 
 
+						<button className="nodeLabelActionButton">
+							<i className="fa fa-search"></i>
+						</button>
+					</div>
 
 
-					<button className="nodeLabelActionButton">
-						<i className="fa fa-search"></i>
-					</button>
 
 
 				</div>

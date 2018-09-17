@@ -1,19 +1,22 @@
 .typeAheadMultiSelect {
-	background-color: crimson;
-	width: 500px;
+	background-color: #D8FFFC;/* */
+	width: 550px;
 	margin: 2px;
+	border-radius: 0px 5px 5px 5px;
 }
 
 /****************************************************/
 .typeAheadMultiSelect_InputContainer {
-	background-color: cyan;
+	/*background-color: cyan;/* */
 	display: inline-block;
 	width: 196px;
 
 	/*float: left;/* */
 
 	vertical-align: top;
-	padding: 2px;
+	padding: 1px;
+
+	border: solid 1px #EEEEEE;
 
 }
 
@@ -26,27 +29,28 @@
 /****************************************************/
 
 .typeAheadMultiSelect_SelectedFilters {
-	background-color: cornflowerblue;
+	/*background-color: cornflowerblue;/* */
 	display: inline-table;
 	padding: 4px;
 
 	/*float: right;/* */
 
-	width: 292px;
+	width: 342px;
 
 	vertical-align: top;
 
 }
 
 .typeAheadMultiSelect_SingleSelectedFilter {
-	background-color: darksalmon;
+	background-color: #5C9D98;
 	padding: 3px 15px 3px 3px;
 	margin: 1px;
 	display: inline-block;
+	border-radius: 3px 0 3px 3px;
 }
 
 .typeAheadMultiSelect_RemoveSelectedFilter {
-	background: red;
+	background: #EEEEEE;
 	position: absolute;
 	top: 0px;
 	right: 0px;

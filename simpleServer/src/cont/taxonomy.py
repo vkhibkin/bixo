@@ -1,5 +1,0 @@
-
-
-def getbike(request):
-
-    return "{}"

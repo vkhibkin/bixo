@@ -88,6 +88,23 @@ class TypeAheadMultiSelect extends Component {
 						</div>
 
 						<div className="typeAheadMultiSelect_SingleSelectedFilter">
+							<span>Filter Name 2</span>
+							<span className="typeAheadMultiSelect_RemoveSelectedFilter">x</span>
+						</div>
+
+
+						<div className="typeAheadMultiSelect_SingleSelectedFilter">
+							<span>Filter Name 2</span>
+							<span className="typeAheadMultiSelect_RemoveSelectedFilter">x</span>
+						</div>
+
+
+						<div className="typeAheadMultiSelect_SingleSelectedFilter">
+							<span>Filter Name reddf</span>
+							<span className="typeAheadMultiSelect_RemoveSelectedFilter">x</span>
+						</div>
+
+						<div className="typeAheadMultiSelect_SingleSelectedFilter">
 							<span>Filter Name Longer</span>
 							<span className="typeAheadMultiSelect_RemoveSelectedFilter">x</span>
 						</div>

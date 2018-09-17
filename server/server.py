@@ -1,11 +1,7 @@
-
-
 from flask_cors import CORS
 import pyodbc
 
 from flask import Flask, render_template
-
-
 
 
 

@@ -1,6 +1,8 @@
 #partsSearchPane {
+
 	width: 580px;
 	height: 750px; /* dynamicaly set this when screen changes */
+
 	/*background-color: #EEEECC;/* */
 	/*float: left;/* */
 
@@ -16,11 +18,33 @@
 
 }
 
+/*
+	.color-primary-0 {
+		color: #236863
+	}
+
+	.color-primary-1 {
+		color: #000000
+	}
+
+	.color-primary-2 {
+		color: #043431
+	}
+
+	.color-primary-3 {
+		color: #5C9D98
+	}
+
+	.color-primary-4 {
+		color: #D8FFFC
+	}
+/* */
+
 #partsSearchPane_SearchRequestClose {
 
 	height: 30px;
 	width: 30px;
-	background-color: #EEEEEE;
+	/*background-color: #EEEEEE;/* */
 	color: #FFFFFF;
 	text-align: center;
 	vertical-align: middle;
@@ -58,4 +82,11 @@
 
 #partsSearchPane_SearchCriteriaLoad {
 
+}
+
+#partsSearchPane_SearchResultsContainer {
+	/*background-color: darkmagenta;/* */
+	height: 485px;
+	overflow-x: hidden;
+	overflow-y: scroll;
 }

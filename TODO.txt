@@ -7,8 +7,23 @@ TODO:
 
 	Front End:
 		
-		Design a logo
-		Add logo to page
+		
+		Implement React-Router
+		Create following views:
+			Taxonomy views
+			Component Management views
+				Componenet (Instance) managment view, allows users to search for existing components, edit compo
+				Component (Prototype) mamagment view, allows admin to edit the prottype
+				Componenet spec Sheet view...
+				User profile view
+				Home view
+				
+				
+		Add logo to page (transform to react friendly code)
+		
+		NOTE: Maybe the description should appear as a dialog....?
+		NOTE: maybe description should appear above the component
+		NOTE: maybe description should appear to the side.
 		
 		Style node widgets
 		
@@ -49,7 +64,7 @@ TODO:
 		
 	Back End:
 	
-		Implement React-Router
+		
 		Create basic db schema 
 		Implement server frame work
 		Make server configurable for my sql mssql

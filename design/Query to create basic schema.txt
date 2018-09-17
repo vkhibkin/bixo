@@ -1,0 +1,26 @@
+use bixo
+
+CREATE TABLE tx_components (
+	id int NOT NULL,
+	implements_components  varchar(255),
+	contains_components varchar(255),
+	extends_component int,
+	parameters  varchar(max)
+);
+
+
+CREATE TABLE tx_interfaces (
+	id int NOT NULL,
+	parameters varchar(max)
+);
+
+
+CREATE TABLE tx_instances (
+	id int NOT NULL,	
+	is_instance_of int,
+	manfucaturer varchar(255),
+	name varchar(255),
+	description varchar(max),
+	parameter_values varchar(max)
+	
+);

@@ -32,7 +32,7 @@ class PartsSearchPane extends Component {
 			<div id="partsSearchPane">
 
 				<div id="partsSearchPane_SearchRequestClose">
-					<i class="fa fa-times"></i>
+					<i className="fa fa-times"></i>
 				</div>
 
 				<div id="partsSearchPane_SearchRequestContainer">

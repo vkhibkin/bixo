@@ -64,6 +64,9 @@
 	border-radius: 4px;
 }
 
+.nodeLabelActionButtonContainer {
+	float: right;
+}
 
 .nodeIcon {
 	height: 30px;
@@ -109,6 +112,7 @@
 .nodeDescription {
 
 	padding: 30px 30px 5px 30px;
+	margin-top: 5px;
 
 }
 

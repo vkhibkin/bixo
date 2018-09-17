@@ -24,9 +24,9 @@ class PartsSearchFilter extends Component {
 		return (
 			<div className="partsSearchFilter">
 
-				<div>Filter Name 1:</div>
+				<div>Component type:</div>
 				<TypeAheadMultiSelect />
-				<div>Filter Name 2:</div>
+				<div>Component name:</div>
 				<TypeAheadMultiSelect />
 
 
