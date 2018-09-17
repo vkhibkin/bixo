@@ -1,29 +1,42 @@
 import React, {Component} from 'react';
+import {
+	BrowserRouter as Router,
+	Route,
+	Link
+} from 'react-router-dom'
+
+
 import './App.css';
 import Menu from "../Menu/Menu";
-import Toolbar from "../Toolbar/Toolbar";
-import WorkBoard from "../WorkBoard/WorkBoard";
+import Home from "../Home/Home";
+import Manage from "../Manage/Manage";
+import TaxonomyWorkBoard from "../TaxonomyWorkBoard/TaxonomyWorkBoard";
 
 
 
 class App extends Component {
+
+
+
 	render() {
 		return (
-			<div className="App">
-				<Menu/>
-				<div id="mainContent">
-					<Toolbar/>
-					<WorkBoard/>
+
+				<div className="App">
+
+						<Menu/>
+						<Router>
+							<div id="mainContent">
+								<Route exact path="/" component={Home}/>
+								<Route path="/taxonomy" component={TaxonomyWorkBoard}/>
+								<Route path="/manage" component={Manage}/>
+							</div>
+						</Router>
+
+					<div id="footer"></div>
 				</div>
-				<div id="footer"></div>
-			</div>
+
 		);
 	}
 }
-
-
-App.Model = function() {
-
-}();
 
 export default App;

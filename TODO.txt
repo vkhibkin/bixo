@@ -7,28 +7,45 @@ TODO:
 
 	Front End:
 		
+		----------------------------------------------------
+		Restructure taxonomy view.
 		
-		Implement React-Router
-		Create following views:
-			Taxonomy views
-			Component Management views
-				Componenet (Instance) managment view, allows users to search for existing components, edit compo
-				Component (Prototype) mamagment view, allows admin to edit the prottype
-				Componenet spec Sheet view...
-				User profile view
-				Home view
-				
-				
-		Add logo to page (transform to react friendly code)
+			- Create besic taxonomy view
+			- Create home view
+			- Create managment view - add / remove componenet
+			- Create managment view - add / remove componenet instance
+			- Create managment view - edit componenet
+			- Create managment view - edit componenet instance
+			- Create user profile view
+			- Create component search view (as a dialog / modal)
 		
-		NOTE: Maybe the description should appear as a dialog....?
-		NOTE: maybe description should appear above the component
-		NOTE: maybe description should appear to the side.
 		
-		Style node widgets
+		-----------------------------------------------------
 		
-		Add node widget descriptions
-		Add node widget buttons
+		- Research react componenets that could provide a modern looking / functioning UX
+		
+		-----------------------------------------------------
+			
+		- Implement a server request uitility that allows for promises and ajax based requests.
+		
+		-----------------------------------------------------
+		
+		- Add an svg logo to page and coresponding favicon
+		
+		-----------------------------------------------------
+		
+		- Finish Taxonomy view
+		
+			NOTES FOR TAXOMONMY VIEW:
+			
+				Description should appear as a dialog....?
+			
+		
+		----------------------------------------------------------
+		
+		Implement final look and feel using React UX libraries found during research
+		
+----------------------------------------------[----------------------------------------------------------------
 		
 		Try to right side jsutify the info and search buttons on the node widget for better allignment.
 		

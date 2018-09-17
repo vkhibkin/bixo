@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
-import './WorkBoard.css';
+import './TaxonomyWorkBoard.css';
 import Taxonomy from "../Taxonomy/Taxonomy";
 import PartsSearchPane from "../PartsSearchPane/PartsSearchPane";
 import model from "../../utils/ServerRequest";
+import Toolbar from "../Toolbar/Toolbar";
 
-class WorkBoard extends Component {
+class TaxonomyWorkBoard extends Component {
 
 	constructor(props) {
 		super(props);
@@ -19,14 +20,24 @@ class WorkBoard extends Component {
 		);
 	}
 
+	/*
+	 <div>
+	 <Toolbar/>
+	 <div id="workboard">
+	 <Taxonomy bikeData={this.state.bikeData}/>
+	 <PartsSearchPane />
+	 </div>
+	 </div>
+	/* */
+
 	render() {
 		return (
-			<div id="workboard">
-				<Taxonomy bikeData={this.state.bikeData}/>
-				<PartsSearchPane />
+			<div>
+				TaxonomyWorkBoard
 			</div>
+
 		);
 	}
 }
 
-export default WorkBoard;
+export default TaxonomyWorkBoard;
